@@ -6,12 +6,14 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap-social/bootstrap-social.css';
-
+import {BrowserRouter as Router} from 'react-router-dom' ;
 
 ReactDOM.render(
+  <Router>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 
