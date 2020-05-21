@@ -3,7 +3,6 @@ import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'r
 import { Link } from 'react-router-dom';
 import  {LEADERS}from '../shared/leaders' ;
 
-
 class About extends Component {
 
     constructor(props) {
@@ -109,3 +108,4 @@ render () {
 }
 
 export default About ;    
+
